@@ -64,7 +64,7 @@ const App = () => (
             <div
               style={{
                 position: "relative",
-                width: "50%",
+                width: "50vw",
                 height: 200,
                 padding: 10,
               }}
@@ -100,28 +100,22 @@ const App = () => (
               </div>
             </div>
             <Tree name="Can we choose the specific date and time of the heist?">
-              <Tree name="Yes">
-                <Tree name="The date and time should coincide with the SF Anime and Cosplay festival">
-                  <Tree name="Uniforms won't stand out as much" />
-                  <Tree name="Crazy anime hairstyles wont stand out as much" />
-                  <Tree name="Average citizens will be less likely to immediately call the cops if cosplayers are wandering the city" />
-                </Tree>
-                <Tree name="rent commercial/industrial property on the edge of the festival area">
-                  <Tree name="Must have street access in back and front" />
-                </Tree>
-                <Tree name="rent a moving truck and park it out back of the rented commercial/industrial property" />
+              <Tree name="If yes, the date and time should coincide with the SF Anime and Cosplay festival">
+                <Tree name="Uniforms won't stand out as much" />
+                <Tree name="Crazy anime hairstyles wont stand out as much" />
+                <Tree name="Average citizens will be less likely to immediately call the cops if cosplayers are wandering the city" />
+
+                <Tree name="Rent commercial/industrial property on the edge of the festival area" />
+
+                <Tree name="Rent a moving truck and park it behind the rented commercial/industrial property" />
               </Tree>
-              <Tree name="No">
-                <Tree name="rent commercial/industrial property near highway access">
-                  <Tree name="Must have street access in back and front" />
-                </Tree>
-              </Tree>
+              <Tree name="If no, rent commercial/industrial property near highway access" />
             </Tree>
             <Tree name="rental property decor">
               <div
                 style={{
                   position: "relative",
-                  width: "50%",
+                  width: "50vw",
                   height: 100,
                   padding: 10,
                 }}
@@ -202,7 +196,7 @@ const App = () => (
                 <div
                   style={{
                     position: "relative",
-                    width: "50%",
+                    width: "50vw",
                     height: 180,
                     padding: 10,
                   }}

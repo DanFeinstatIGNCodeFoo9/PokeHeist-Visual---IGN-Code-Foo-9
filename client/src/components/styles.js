@@ -1,5 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { animated } from "react-spring";
+import backgroundImage from "./images/teamRocket.png";
 
 const Global = createGlobalStyle`
   * {
@@ -36,9 +37,10 @@ const Global = createGlobalStyle`
   }
   #root {
     padding: 30px;
-    background-image: url(./poster.jpeg)!important;
+    background-image: url(${backgroundImage});
     background-position:center;
     background-repeat:no-repeat;
+    background-size:auto 50px;
   }
 `;
 
