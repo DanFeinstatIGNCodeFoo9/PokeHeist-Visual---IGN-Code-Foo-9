@@ -53,6 +53,42 @@ const App = () => (
       </Tree>
       <Tree name="Assumptions">
         <Tree name="As Team Rocket we have immediate access to the Meowth Ballon (hot air balloon)" />
+        <Tree name="As Team Rocket we have immediate access to the team rocket net">
+          <div
+            style={{
+              position: "relative",
+              width: "50vw",
+              height: 200,
+              padding: 10,
+            }}
+          >
+            <div
+              style={{
+                width: "100%",
+                height: "100%",
+                color: "#f2eebd",
+                padding: 10,
+                background: "linear-gradient(135deg,#c5036e 0%, #707dbf 100%)",
+                whiteSpace: "normal",
+                overflowY: "scroll",
+                overflowX: "none",
+                borderRadius: 5,
+              }}
+            >
+              <p>
+                Assuming Jesse is about 5'8 based on Brock's cannon height of
+                5'0, and the radius of the net when in a sphere is about the
+                height of Jesse, we can estimate with A=4πr^2 that the area
+                inside the net is about 2.06×10^5in^3. According to bulbapedia,
+                the size of a Poké Ball when in storage mode is the size of a
+                ping pong ball (capture mode is baseball sized). The radius of a
+                pingpong ball is about 0.79inches, so the average area is
+                7.84in^3. 2.06x10^5/7.84 = 26,275 when rounded down, meaning the
+                most Poké Balls team rocket could escape with is 26,275.
+              </p>
+            </div>
+          </div>
+        </Tree>
         <Tree name="The twerps are in the vicinity" />
         <Tree name="When awoken, Snorlax will become aggressive and attack anything nearby as he does in the games(immediately attacks player)." />
         <Tree name="The City of San Francisco does not have easy access to a Poké Flute or Snorlax would be gone." />
@@ -178,6 +214,7 @@ const App = () => (
             <Tree name="if rented space is looked at, the sign about vomit in the ball pit should disuade anything more than cursory investigation" />
             <Tree name="Jesse and James then in disguise move the real Poké Balls a few at a time to a local Team Rocket Safe house or a Team Rocket Submarine" />
             <Tree name="If moved to submarine, pedal Poké Balls to international waters, and/or nearest Team Rocket base" />
+            <Tree name="Result: Team rocket escapes with up to 26,275 Poké Balls!" />
           </Tree>
           <Tree name="No">
             <Tree name="Execute the plan during the height of rush hour to slow police response" />
@@ -238,6 +275,7 @@ const App = () => (
               <Tree name="High risk of coast guard, highway patrol, air force or twerps hunting down the Meowth Balloon during extended travel" />
               <Tree name="If possible perform heist after prep work" />
             </Tree>
+            <Tree name="Result: Team rocket initially escapes with up to 26,275 Poké Balls, but likely is able to hold onto none." />
           </Tree>
         </Tree>
       </Tree>
