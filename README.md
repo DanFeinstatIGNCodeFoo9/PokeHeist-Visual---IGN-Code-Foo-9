@@ -21,3 +21,8 @@ followed by "heroku open".
 
 This should work, if there's an issue,
 try again using the command "heroku create -b https://github.com/mars/create-react-app-buildpack.git" in place of "heroku create".
+
+
+##Quick Answer
+
+Assuming Jesse is about 5'8 based on Brock's cannon height of 5'0, and the radius of the net when in a sphere is about the height of Jesse, we can estimate with A=4πr^2 that the area inside the net is about 2.06×10^5in^3. According to bulbapedia, the size of a Poké Ball when in storage mode is the size of a ping pong ball (capture mode is baseball sized). The radius of a pingpong ball is about 0.79inches, so the average area is 7.84in^3. 2.06x10^5/7.84 = 26,275 when rounded down, meaning the most Poké Balls team rocket could escape with is 26,275.
